@@ -27,3 +27,8 @@
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
 }
+
+.toggle-theme-icon-size{
+  width: 1em;
+  height: 1em;
+}
