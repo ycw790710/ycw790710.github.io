@@ -1,0 +1,29 @@
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.btn-bd-primary {
+  --bd-gray-bg: #ccc;
+  --bd-gray-rgb: 128, 128, 128;
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-gray-bg);
+  --bs-btn-border-color: var(--bd-gray-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #d9d9d9;
+  --bs-btn-hover-border-color: #d9d9d9;
+  --bs-btn-focus-shadow-rgb: var(--bd-gray-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #c0c0c0;
+  --bs-btn-active-border-color: #c0c0c0;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
