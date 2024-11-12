@@ -37,7 +37,7 @@
       }
   
       const themeSwitcherText = document.querySelector('#bd-theme-text')
-      const activeThemeIcon = document.querySelector('.theme-icon-active img')
+      const activeThemeIcon = document.querySelector('.theme-icon-active')
       const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
       const svgOfActiveBtn = btnToActive.querySelector('img').getAttribute('src')
   
