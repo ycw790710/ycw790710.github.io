@@ -4,3 +4,15 @@ description: > # this means to ignore newlines until "baseurl:"
   -
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://ycw790710.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# 預設 permalink 設置
+permalink: pretty  # 默認的鏈接結構適用於非 _posts 的頁面
+
+# 針對 _posts 的 permalink 設置
+collections:
+  posts:
+    output: true
+    permalink: /:year-:month-:day/:title:output_ext
