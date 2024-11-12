@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant-TW" data-bs-theme="dark">
 
   {% include head.html %}
 
   <body>
 
-    {% include header.html %}
+    {% include nav.html %}
 
     <main role="main" class="container">
       {{ content }}
     </main>
 
+    {% toggle_theme.html %}
   </body>
 
 </html>
