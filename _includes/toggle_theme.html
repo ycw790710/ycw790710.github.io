@@ -1,41 +1,30 @@
 
 <div class="dropdown">
-  <button class="btn py-2 dropdown-toggle d-flex align-items-center"
+  <div class="btn dropdown-toggle d-flex"
           id="bd-theme"
-          type="button"
           aria-expanded="false"
           data-bs-toggle="dropdown"
           aria-label="Toggle theme (auto)">
-    <!-- <img src="/assets/svg/google-fonts-contrast.svg" class="bi my-1 theme-icon-active toggle-theme-icon-size"> -->
-    <span class="material-symbols-outlined bi my-1 theme-icon-active toggle-theme-icon-size">contrast</span>
+    <span class="material-symbols-outlined bi theme-icon-active">contrast</span>
     <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-  </button>
+  </div>
   <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
     <li>
-      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-        <!-- <img src="/assets/svg/google-fonts-light_mode.svg" class="bi me-2 opacity-50 toggle-theme-icon-size"> -->
-        <span class="material-symbols-outlined bi me-2 opacity-50 toggle-theme-icon-size">light_mode</span>
+      <button type="button" class="dropdown-item d-flex" data-bs-theme-value="light" aria-pressed="false">
+        <span class="material-symbols-outlined bi me-2 opacity-50">light_mode</span>
         Light
-        <!-- <img src="/assets/svg/google-fonts-check.svg" class="bi ms-auto d-none toggle-theme-icon-size"> -->
-        <span class="material-symbols-outlined bi ms-auto d-none toggle-theme-icon-size">check</span>
       </button>
     </li>
     <li>
-      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
-        <span class="material-symbols-outlined bi me-2 opacity-50 toggle-theme-icon-size">dark_mode</span>
-        <!-- <img src="/assets/svg/google-fonts-dark_mode.svg" class="bi me-2 opacity-50 toggle-theme-icon-size"> -->
+      <button type="button" class="dropdown-item d-flex" data-bs-theme-value="dark" aria-pressed="false">
+        <span class="material-symbols-outlined bi me-2 opacity-50">dark_mode</span>
         Dark
-        <!-- <img src="/assets/svg/google-fonts-check.svg" class="bi ms-auto d-none toggle-theme-icon-size"> -->
-        <span class="material-symbols-outlined bi ms-auto d-none toggle-theme-icon-size">check</span>
       </button>
     </li>
     <li>
-      <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
-        <span class="material-symbols-outlined bi me-2 opacity-50 toggle-theme-icon-size">contrast</span>
-        <!-- <img src="/assets/svg/google-fonts-contrast.svg" class="bi me-2 opacity-50 toggle-theme-icon-size"> -->
+      <button type="button" class="dropdown-item d-flex active" data-bs-theme-value="auto" aria-pressed="true">
+        <span class="material-symbols-outlined bi me-2 opacity-50">contrast</span>
         Auto
-        <!-- <img src="/assets/svg/google-fonts-check.svg" class="bi ms-auto d-none toggle-theme-icon-size"> -->
-        <span class="material-symbols-outlined bi ms-auto d-none toggle-theme-icon-size">check</span>
       </button>
     </li>
   </ul>

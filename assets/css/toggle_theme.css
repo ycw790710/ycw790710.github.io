@@ -1,14 +1,9 @@
 
 .bi {
-  vertical-align: -.125em;
+  vertical-align: middle;
   fill: currentColor;
 }
 
 .bd-mode-toggle .dropdown-menu .active .bi {
   display: block !important;
-}
-
-.toggle-theme-icon-size{
-  width: 1em;
-  height: 1em;
 }
