@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
   <div class="container-fluid">
     <span class="navbar-brand">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</span>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
@@ -6,7 +6,7 @@
     </button>
     <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">ycw790710 space</h5>
+        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
@@ -16,6 +16,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{ "/pages/updates" | prepend: site.url }}">Updates</a>
+          </li>
+          <li class="nav-item">
+            {% include toggle_theme.html %}
           </li>
         </ul>
       </div>
